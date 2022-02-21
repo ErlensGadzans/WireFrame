@@ -141,7 +141,7 @@ p {
   max-width: 1680px;
   height: 100vh;
   max-height: 600px;
-  background-color: lightcoral;
+  background-color: #fff;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -225,4 +225,25 @@ p {
   font-weight: 100;
   font-size: 26px;
   text-align: center;
+}
+
+.text_and_two_buttons {
+  max-width: 1680px;
+  height: 100vh;
+  max-height: 340px;
+  background-color: #f5f5f5;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text_for_buttons {
+  width: 60%;
+}
+
+.two_buttons {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

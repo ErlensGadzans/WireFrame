@@ -192,3 +192,37 @@ p {
   padding-right: 80px;
   box-sizing: border-box;
 }
+
+.text_and_small_pictures {
+  max-width: 1680px;
+  height: 100vh;
+  max-height: 738px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+/* .small_pictures_container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+} */
+
+.small_image {
+  width: 173px;
+  height: 76px;
+  padding-left: 42px;
+  padding-right: 42px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.text_for_cards {
+  font-family: Montserrat;
+  font-weight: 100;
+  font-size: 26px;
+  text-align: center;
+}

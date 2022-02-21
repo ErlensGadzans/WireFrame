@@ -136,3 +136,22 @@ p {
   font-family: Montserrat;
   color: #18a0fb;
 }
+
+.picture_and_text_block {
+  max-width: 1680px;
+  height: 100vh;
+  max-height: 600px;
+  background-color: lightcoral;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.image {
+  width: 50%;
+  min-width: 300px;
+  max-height: 440px;
+  padding-left: 80px;
+  box-sizing: border-box;
+}

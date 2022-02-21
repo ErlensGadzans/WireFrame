@@ -155,3 +155,40 @@ p {
   padding-left: 80px;
   box-sizing: border-box;
 }
+.card2 {
+  width: 45%;
+  min-width: 300px;
+  padding-right: 80px;
+  box-sizing: border-box;
+  font-family: Montserrat;
+  font-weight: 200;
+}
+
+.picture_and_text_block_oposite {
+  max-width: 1680px;
+  height: 100vh;
+  max-height: 600px;
+  background-color: #f5f5f5;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card3 {
+  width: 45%;
+  min-width: 300px;
+  padding-left: 80px;
+  box-sizing: border-box;
+  font-family: Montserrat;
+  font-weight: 200;
+}
+
+.image2 {
+  width: 50%;
+  min-width: 300px;
+  max-height: 440px;
+  padding-right: 80px;
+  box-sizing: border-box;
+}

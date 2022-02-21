@@ -70,6 +70,7 @@ body {
 }
 h1 {
   font-family: Montserrat;
+  font-weight: 100;
   font-size: 56px;
   line-height: 80px;
   text-align: center;
@@ -79,4 +80,59 @@ h1 {
 
 .video_section_title {
   margin-top: 390px;
+}
+.four_blocs_section {
+  max-width: 1680px;
+  height: 100vh;
+  max-height: 960px;
+  margin: auto;
+  padding: 80px;
+  background-color: #fff;
+}
+
+.card_container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* sasaurinot ekranu kartinas bus viena zem otras */
+}
+h2 {
+  padding: 10px;
+  padding-top: 120px;
+  font-family: Montserrat;
+  font-weight: 100;
+  font-size: 48px;
+  width: 45%;
+  box-sizing: border-box;
+}
+
+.card {
+  width: 45%;
+  min-width: 300px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: Montserrat;
+  font-weight: 200;
+}
+
+h4 {
+  font-size: 20px;
+}
+p {
+  font-size: 15px;
+}
+
+.btn_light {
+  border: 1px solid #18a0fb;
+  box-sizing: border-box;
+  border-radius: 6px;
+  width: 130px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* cursor: pointer; */
+  text-decoration: none;
+  font-family: Montserrat;
+  color: #18a0fb;
 }
